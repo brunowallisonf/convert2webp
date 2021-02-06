@@ -5,10 +5,7 @@ const gm = require(`gm`).subClass({imageMagick:true});
 const INPUT_FOLDER = `/home/bruno/Pictures/categories`
 const OUTPUT_FOLDER = `./images`
 
-
-
-
-console.warn(`Start Converting files...`)
+console.info(`Start Converting files...`)
 const files = fs.promises.readdir(`/home/bruno/Pictures/categories`).then(async files =>{
     files.map(async file=> {
         const filename = file.split(".")[0]
@@ -18,5 +15,5 @@ const files = fs.promises.readdir(`/home/bruno/Pictures/categories`).then(async 
 });
 
 
-console.log(`Conversion terminated sucessfully `)
+console.info(`Conversion terminated sucessfully `)
 
