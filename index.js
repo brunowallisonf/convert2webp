@@ -1,7 +1,7 @@
 const sharp = require(`sharp`)
 const fs = require(`fs`);
 const { dirname } = require("path");
-const gm = require(`gm`).subClass({imageMagick:true});
+
 const INPUT_FOLDER = `/home/bruno/Pictures/categories`
 const OUTPUT_FOLDER = `./images`
 
