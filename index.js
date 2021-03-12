@@ -11,12 +11,9 @@ const { exit } = require("process");
 const handler = () => {
   const args = process.argv;
   const inputParamIndex = args.findIndex((arg) => arg === "-i");
-
   const outputParamIndex = args.findIndex((arg) => arg === "-o");
-
   const inputPath =
     inputParamIndex >= 0 ? args[inputParamIndex + 1] : undefined;
-
   const outputPath =
     outputParamIndex >= 0 ? args[outputParamIndex + 1] : undefined;
 
