@@ -8,4 +8,4 @@ Dependency: Imagemagick
 
 node index.js -i <input_folder> -o <output_folder>
 
-note: So far only relative paths.
+note: So far only  use relative paths.
