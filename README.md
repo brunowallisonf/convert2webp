@@ -8,6 +8,5 @@ Dependency: [Imagemagick](https://imagemagick.org/script/download.php)
 
 
 
-node index.js -i <input_folder> -o <output_folder>
-
+`node index.js -i <input_folder> -o <output_folder>`
 > note: So far only  use relative paths.
