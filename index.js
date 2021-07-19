@@ -4,9 +4,6 @@ const { dirname, join } = require("path");
 const { mkdir, readdir } = require("fs/promises");
 const { exit } = require("process");
 
-// console.log(process.argv);
-// const INPUT_FOLDER = ;
-// const OUTPUT_FOLDER = `./images`;
 
 const handler = async () => {
   const args = process.argv;
